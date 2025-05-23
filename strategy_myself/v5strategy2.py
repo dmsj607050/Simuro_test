@@ -86,7 +86,7 @@ def get_team_info(server_version: int) -> str:
     print(f'server rpc version: {version.get(server_version, "V1.0")}')
     global newMatch
     newMatch = True
-    return '一脚定乾坤'# 在此行修改双引号中的字符串为自己的队伍名
+    return '摆兵出击'# 在此行修改双引号中的字符串为自己的队伍名
 
 #*************************************常规策略**********************************
 # 策略行为主函数，可将以下函数用策略模式封装
